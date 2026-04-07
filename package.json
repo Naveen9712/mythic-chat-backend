@@ -5,7 +5,7 @@
   "main": "src/server.js",
   "type": "module",
   "scripts": {
-    "start": "node --env-file=.env src/server.js",
+    "start": "node src/server.js",
     "dev": "node --watch --env-file=.env src/server.js",
     "ingest": "node --env-file=.env src/rag/ingest.js"
   },
