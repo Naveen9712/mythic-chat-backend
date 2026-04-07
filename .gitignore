@@ -1,0 +1,21 @@
+node_modules/
+
+# Local secrets
+.env
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.log
+
+# RAG artifacts (generated)
+store/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
